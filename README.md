@@ -1,9 +1,43 @@
-# Vue 3 + TypeScript + Vite
+# Super Simple SQL Fakémons Trainer
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Este é um projeto desenvolvido em Vue 3, utilizando Composition API, VueUse e Vuetify, para criar um treinador simples de SQL com exemplos fictícios de Fakémons.
 
-## Recommended Setup
+## Funcionalidades
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- **Aprendizado Interativo:** Pratique consultas SQL básicas de forma interativa.
+- **Exemplos de Fakémons:** Utilize dados fictícios de Fakémons para aprender SQL de maneira divertida.
+- **Interface Amigável:** UI desenvolvida com Vuetify para uma experiência visual agradável.
+- **Utilização da Composition API:** Aproveite os benefícios da Composition API do Vue 3 para um código mais organizado e reutilizável.
+- **Integração com VueUse:** Facilidade na utilização de diversos hooks do VueUse para funcionalidades comuns.
 
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+## Instalação
+
+1. **Clone o Repositório:**
+   ```
+   git clone https://github.com/HelterDSouza/fakemon-sql.git
+   ```
+
+2. **Instale as Dependências:**
+   ```
+   cd fakemon-sql
+   npm install
+   ```
+
+3. **Inicie o Servidor de Desenvolvimento:**
+   ```
+   npm run serve
+   ```
+
+4. **Acesse o Aplicativo:**
+   Abra seu navegador e visite `http://localhost:8080`.
+
+## Contribuição
+
+- Sinta-se à vontade para abrir novas issues relatando problemas ou sugerindo melhorias.
+- Contribuições via pull requests são bem-vindas. Para mudanças significativas, por favor abra uma issue primeiro para discutirmos.
+
+Este projeto está licenciado sob a [MIT License](link-para-licenca).
+
+---
+
+Adapte o conteúdo conforme necessário, incluindo links, nome do repositório, e outras informações específicas do seu projeto.
